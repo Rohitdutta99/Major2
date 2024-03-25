@@ -14,7 +14,7 @@ function Body(props){
         <Gap />
         <Search_Banner />
         <Gap />
-        <Subheadings text="Featured Gyms"/>
+        <Subheadings text="Featured Fitness Centers"/>
         <Gap />
         <Gym_listings />
         <Gap />
@@ -22,6 +22,15 @@ function Body(props){
         <Gap />
         <Banner key={imgLinks[0].key} id={imgLinks[0].key} img={imgLinks[0].imageURL} />
         <Gap />
+        <Subheadings text="Trending Fitness Centers"/>
+        <Gap />
+        <Gym_listings />
+        <Gap />
+        <Subheadings text="Newly Added Fitness Centers"/>
+        <Gap />
+        <Gym_listings />
+        <Gap />
+        
 
     </div>);
 }
