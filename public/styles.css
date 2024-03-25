@@ -236,6 +236,7 @@ footer > p{
 }
 .form_div{
   position: relative;
+  bottom: 2rem;
   text-align: center; 
 }
 
@@ -311,3 +312,17 @@ footer > p{
   background-color: var(--seccolor);
 }
 
+#auto-locate-btn{
+  position: relative;
+  bottom: 24rem;
+  margin: auto;
+  display: block;
+  height: 3.5rem;
+  width: 20%;
+  border: none;
+  color: white;
+  background-color: var(--color);
+  border-radius: 50px;
+  cursor: pointer;
+  font-size: large;
+}

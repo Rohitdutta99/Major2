@@ -9,6 +9,7 @@ function Search_Banner(){
             <button type="submit">Search</button>
         </form>
         </div>
+            <button id="auto-locate-btn" type="submit">Auto Locate</button>
     </div>
 }
 
