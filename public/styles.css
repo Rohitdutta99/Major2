@@ -162,7 +162,6 @@ footer{
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   height: 15rem;
   width: 15rem;
-  background-color: aqua;
   position: relative;
   top: 12%;
   left: 2%;
@@ -230,7 +229,6 @@ footer{
 }
 .form_div{
   position: relative;
-  background-color: rebeccapurple;
   text-align: center; 
 }
 
@@ -277,4 +275,9 @@ nav > ul > li > img{
   border-radius: 50px;
   cursor: pointer;
   font-size: large;
+}
+
+.location{
+  height: 30px;
+  background-color: rebeccapurple;
 }

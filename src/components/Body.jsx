@@ -5,9 +5,12 @@ import Gap from "./Gap_ele";
 import Gym_listings from "./Gym_listings";
 import Subheadings from "./Subheadings";
 import Search_Banner from "./Search_banner";
+import Location_display from "./Location_display";
 
 function Body(props){
     return (<div className="body_div">
+        <Gap />
+        <Location_display />
         <Gap />
         <Search_Banner />
         <Gap />
