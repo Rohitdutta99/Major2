@@ -132,6 +132,12 @@ footer{
   height: 10vh;
   background-color: var(--color);
   text-align: center;
+  color: white;
+}
+
+footer > p{
+  position: relative;
+  top: 30%;
 }
 
 .gap{
