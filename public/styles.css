@@ -1,6 +1,7 @@
 :root{
   --color: rgb(237, 197, 79);
   --seccolor: #eee;
+  --thirdcol: white;
   --font: "Montserrat", sans-serif;
 }
 
@@ -55,7 +56,7 @@ ul{
   display: flex;
 }
 li{
-  color: var(--seccolor);
+  color: var(--thirdcol);
   font-weight: bold;
   margin: auto;
   position: relative;
@@ -63,7 +64,7 @@ li{
 }
 
 .logo > h1{
-  color: var(--seccolor);
+  color: var(--thirdcol);
   position: relative;
   bottom: 6.7rem;
   left: 5rem;
@@ -255,12 +256,7 @@ footer{
   font-size: medium;
 }
 
-nav > ul > li > img{
-  filter: invert();
-  height: 19px;
-  position: relative;
-  top: 0.1rem;
-}
+
 
 .form_div> form > button{
   position: relative;
@@ -279,5 +275,33 @@ nav > ul > li > img{
 
 .location{
   height: 30px;
-  background-color: rebeccapurple;
+  display: flex;
 }
+
+.location > p{
+  font-size: small;
+  position: relative;
+  top: 0.2rem;
+  margin-left: 0.5rem;
+  color: gray;
+}
+.location > img{
+  position: relative;
+  top: 1.5px;
+  height: 1.2rem;
+  padding-left: 2.5rem;
+}
+
+.location > button{
+  position: absolute;
+  left: 92%;
+  border-radius: 50px;
+  padding: 5px;
+  border: none;
+  cursor: pointer;
+  font-size: small;
+  font-weight: bold;
+  color: var(--color);
+  background-color: var(--seccolor);
+}
+
