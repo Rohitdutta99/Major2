@@ -42,11 +42,11 @@ header{
 
 nav{
   position: relative;
-  bottom: 3.5rem;
+  bottom: 3.8rem;
   height: 100%;
   width: 20rem;
   overflow: hidden;
-  margin-left: 70rem;
+  margin-left: 74rem;
 }
 ul{
   padding: 10px;
@@ -213,4 +213,68 @@ footer{
   top: 1.3rem;
   padding-left: 0.5rem;
   font-size: xx-small;
+}
+
+.search_banner_div{
+  height: 60vh;
+  overflow: hidden;
+}
+
+.search_banner_div > img{
+  display: block;
+  height: 150%;
+  width: 100%;
+  position: relative;
+  bottom: 7rem;
+  z-index: -1;
+}
+.form_div{
+  position: relative;
+  background-color: rebeccapurple;
+  text-align: center; 
+}
+
+.form_div > form{ 
+  position: relative;
+  bottom: 50vh;
+  height: 62px;
+  width: 900px;
+  border-radius: 30px;
+  background-color: white;
+  overflow: hidden;
+  margin: auto;
+}
+
+
+.form_div> form > input{
+  position: relative;
+  right: 5%;
+  padding: 25px;
+  height: 60px;
+  width: 500px;
+  border: none;
+  outline: none;
+  font-size: medium;
+}
+
+nav > ul > li > img{
+  filter: invert();
+  height: 19px;
+  position: relative;
+  top: 0.1rem;
+}
+
+.form_div> form > button{
+  position: relative;
+  left: 10%;
+  top: 0;
+  margin: 0;
+  height: 100%;
+  width: 25%;
+  border: none;
+  color: white;
+  background-color: var(--color);
+  border-radius: 50px;
+  cursor: pointer;
+  font-size: large;
 }

@@ -10,6 +10,7 @@ function Header(props){
                     <li>Home</li>
                     <li>About</li>
                     <li>Contact Us</li>
+                    <li><img src="src/images/search.png" alt=""/></li>
                 </ul>
             </nav>
             <h1>Healfy</h1>
