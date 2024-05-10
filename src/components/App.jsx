@@ -1,13 +1,18 @@
 import React from "react";
-import Header from "./Header";
-import Body from "./Body";
-import Footer from "./Footer";
+import {BrowserRouter, Routes, Route} from "react-router-dom";
+import Homepage from "./Homepage";
+import Autolocated from "./Autolocated";
+import LocationDisplay from "./Location_display";
 
 function App(){
     return <div>
-        <Header />
-        <Body />
-        <Footer />
+        <BrowserRouter>
+            <Routes>
+                <Route path="/" element={<Homepage />}/>
+                <Route path="/locate" element={<Autolocated />}/>
+                <Route path="/Location_display" element={<LocationDisplay />}/>
+            </Routes>
+        </BrowserRouter>
     </div>
 }
 
